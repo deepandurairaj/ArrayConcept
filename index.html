@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Concept</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <Section class="stringSection">
+        <div class="container strings">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Array Concepts</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="buttons">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <label for="output" class="d-flex justify-content-center fs-2">Register Arrays</label>
+                                        <input class="form-control" id="inputArray" type="number" placeholder="Enter the Array">
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="output" class="d-flex justify-content-center fs-2">Output</label>
+                                        <input class="form-control" readonly id="output" type="text" placeholder="Show Array">
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="output" class="d-flex justify-content-center fs-2">First Value</label>
+                                        <input class="form-control" id="firstValue" type="text" placeholder="Enter the text">
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="output" class="d-flex justify-content-center fs-2">Secound Value</label>
+                                        <input class="form-control" id="secoundValue" type="text" placeholder="Enter the text">
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="s-output" class="d-flex justify-content-center fs-2">Output</label>
+                                        <input class="form-control" readonly id="s-output" type="text" placeholder="Show Array">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-3 col-sm-4">
+                                        <div class="card">
+                                            <button class="btn" onclick="PushMethod()">Push</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-3 col-sm-4">
+                                         <div class="card">
+                                            <button class="btn" onclick="popMethod()">Pop</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-3 col-sm-4">
+                                        <div class="card">
+                                            <button class="btn" onclick="toStringMethod()">ToString</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-3 col-sm-4">
+                                        <div class="card">
+                                            <button class="btn" onclick="unShift()">UnShift</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-3">
+                                        <div class="card">
+                                            <button class="btn" onclick="Shift()">Shift</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-3">
+                                        <div class="card">
+                                            <button class="btn" onclick="SortMethod()">Sort</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-3">
+                                        <div class="card">
+                                            <button class="btn" onclick="ReverseMethod()">Reverse</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-3">
+                                        <div class="card">
+                                            <button class="btn" onclick="sliceMethod()">Slice</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-3">
+                                        <div class="card">
+                                            <button class="btn" onclick="spliceMethod()">Splice</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-3">
+                                        <div class="card">
+                                            <button class="btn" onclick="findMethod()">Find</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-3">
+                                        <div class="card">
+                                            <button class="btn" onclick="filterMethod()">Filter</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-3">
+                                        <div class="card">
+                                            <button class="btn" onclick="DeleteMethod()">Delete</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-3">
+                                        <div class="card">
+                                            <button class="btn" onclick="includeMethod()">Includes</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-3">
+                                        <div class="card">
+                                            <button class="btn" onclick="copywithMethod()">CopyWithIn</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </Section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
